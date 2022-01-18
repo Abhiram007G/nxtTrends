@@ -1,0 +1,49 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.category-list-container {
+  list-style: none;
+  padding: 0px;
+}
+
+.filter-headings {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ratings-container {
+  list-style: none;
+  padding: 0px;
+}
+
+.rating-item {
+  width: 150px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.active {
+  color: blue;
+}
+
+.clear-filter-button {
+  border: 1px solid blue;
+  color: blue;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
